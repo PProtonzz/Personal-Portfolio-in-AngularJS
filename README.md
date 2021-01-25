@@ -14,8 +14,11 @@ First clone the repo then Run Directory in Localhost
 # Docs
 
 AngularJS v1.0 Official Docs: https://angularjs.org/
+
 Angular v2.x Official Docs: https://angular.io/
+
 Codepen: https://codepen.io/pranav-fulkari/pen/qBazERg
+
 
 # Live View
 
