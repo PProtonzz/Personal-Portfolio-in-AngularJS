@@ -19,7 +19,7 @@ Codepen: https://codepen.io/pranav-fulkari/pen/qBazERg
 
 # Live View
 
-[![Youtube Tutorial of Netflix Clone](https://raw.githubusercontent.com/PProtonzz/Netflix-Clone-in-React-Native/master/Banner.jpg)](https://www.youtube.com/playlist?list=PLJsBDvrZdNTgMsgQ0E-xt3Ed4zIXBx9Mc)
+[![Youtube Tutorial of Netflix Clone](Banner.jpg)](https://www.youtube.com/playlist?list=PLJsBDvrZdNTgMsgQ0E-xt3Ed4zIXBx9Mc)
 
 # More Libraries/Clones/Codes
 
