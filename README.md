@@ -2,7 +2,7 @@
 # By PRANAV FULKARI and Prajwal Ghate
 
 # Screenshots
-![Alt text](/screenshot.png?raw=true "Screenshot")
+![Alt text](/Screenshot.PNG?raw=true "Screenshot")
 
 Youtube Tutorial Link : https://www.youtube.com/playlist?list=PLJsBDvrZdNTgMsgQ0E-xt3Ed4zIXBx9Mc
 
