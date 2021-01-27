@@ -1,8 +1,17 @@
 angular.module('app', [])
     .controller('appController', function($scope, $locale) {
 
-        $scope.firstName = "Pranav";
-        $scope.lastName = "Fulkari";
+        var userData = firebase.database().ref('Data');
+        userData.on('value', (snapshot) => {
+
+            $scope.firstName = snapshot.child("firstName").val();
+            $scope.lastName = snapshot.child("lastName").val();
+            $scope.$apply();
+
+        });
+
+        // $scope.firstName = "Pranav";
+        // $scope.lastName = "Fulkari";
         $scope.title = "Internet Entrepreneur & Realtime Programmer";
         $scope.email = "director@bottlecaptech.com";
         $scope.number = "+91-0000000000";

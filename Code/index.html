@@ -167,12 +167,30 @@ Professional Multi-Platform Developer based in Dubai, UAE. IEEE Certified Speake
         document.getElementById("ip").innerHTML = 'Got your IP ! : ' + ip + " | verify in http://www.whatismypublicip.com/";
     });
     </script>
-     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-     <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/cross-browser.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+    <script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyAozxbnLDq83vaveT_PflQMPmjrdeGsraU",
+        authDomain: "portfolio-b0510.firebaseapp.com",
+        databaseURL: "https://portfolio-b0510-default-rtdb.firebaseio.com",
+        projectId: "portfolio-b0510",
+        storageBucket: "portfolio-b0510.appspot.com",
+        messagingSenderId: "691799500203",
+        appId: "1:691799500203:web:7c38a9b41b00df5dad5eee",
+        measurementId: "G-Q194EHFJVD"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+    <script src="js/app.js"></script>
     <!-- script -->
 </body>
 
